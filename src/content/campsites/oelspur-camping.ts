@@ -7,223 +7,233 @@ const oelspurCamping: CampsiteConfig = {
   shortName: "Ölspur",
   slug: "oelspur-camping",
   ort: "Eibiswald",
-  region: "Steiermark",
+  region: "Südweststeiermark",
   brandKind: "Camping",
-  regionLong: "Schilcherland Eibiswald-Wies · Südsteiermark · Österreich",
+  regionLong: "Schilcherland · Südweststeiermark · Österreich",
 
   heroVariant: "center",
 
-  claim: "Camping zwischen Weingärten und Kürbiskernöl",
-  claimEmphasis: "Weingärten und Kürbiskernöl",
-  emailDetail: "euer Platz eingebettet in die Isabella-Weinstöcke",
+  claim: "Dein Stellplatz mitten in den Isabella-Reben",
+  claimEmphasis: "Isabella-Reben",
+  emailDetail: "die Lage eingebettet in eure Isabella-Weinstöcke",
   intro:
-    "Bei Familie Moser campst du seit 2013 auf einem selbst erbauten Platz: 49 parzellierte Stellplätze zwischen Isabella-Weinstöcken, zwei Sanitärgebäude aus heimischem Holz und das beheizte Erlebnisbad gleich nebenan.",
+    "Seit 2013 führt Familie Moser ihren selbst erbauten Platz in Eibiswald persönlich — klein, aber fein: 49 Stellplätze zwischen Reben, zwei Sanitärhäuser aus Holz und das beheizte Erlebnisbad gleich nebenan. Hier kommst du an.",
 
   statement: {
-    text: "Eingekesselt von Isabella-Weinstöcken liegen hier 10.000 m² Wiese, 49 Stellplätze und jede Menge südsteirische Ruhe.",
+    text: "Eingekesselt von Isabella-Weinstöcken stehen 10.000 m² Wiese und Split für 49 Stellplätze bereit.",
     emphasis: "Isabella-Weinstöcken",
   },
 
   pillars: [
     {
-      title: "Von Familie Moser geführt",
-      text: "Seit dem 1. Juli 2013 führt Familie Moser den selbst erbauten Platz persönlich — ein von Familienhand geführtes „Kraftplatzerl", auf dem du dich umsorgt fühlst.",
-      image: { src: `${IMG}/gallery-9ab2066e93.webp`, alt: "Familie Moser am Steirischen Ölspur Camping" },
+      title: "Mitten in den Reben",
+      text: "Dein Platz liegt eingebettet zwischen Isabella-Weinstöcken — ein von Familienhand geführtes „Kraftplatzerl“ zum Durchatmen.",
+      image: { src: `${IMG}/platz-pavillon.webp`, alt: "Stellplätze zwischen Reben am Ölspur Camping im Abendlicht" },
     },
     {
-      title: "Mitten in den Weingärten",
-      text: "Rundum Isabella-Weinstöcke, dazwischen ebene Stellplätze und ein Pavillon für laue Abende — hier campst du zwischen Reben statt zwischen Beton.",
-      image: { src: `${IMG}/gallery-9b5902bef2.webp`, alt: "Stellplätze und Pavillon im Abendlicht zwischen Weinreben" },
+      title: "Familie Moser, seit 2013",
+      text: "Den Platz hat die Familie selbst erbaut und führt ihn persönlich — jeder Gast bekommt zur Begrüßung das Ölspur-Sackerl.",
+      image: { src: `${IMG}/rezeption.webp`, alt: "Persönliche Beratung am Ölspur Camping zwischen den Isabella-Reben" },
     },
     {
-      title: "Erlebnisbad gleich nebenan",
-      text: "Direkt angrenzend liegt das von Nahwärme beheizte Erlebnisbad der Marktgemeinde — über einen eigenen Eingang erreichst du es bequem vom Platz aus.",
-      image: { src: `${IMG}/gallery-7d782eb049.webp`, alt: "Beheiztes Erlebnisbad Eibiswald neben dem Campingplatz" },
+      title: "Erlebnisbad nebenan",
+      text: "Direkt angrenzend liegt das beheizte Erlebnisbad der Marktgemeinde — über einen eigenen Eingang vom Platz erreichbar.",
+      image: { src: `${IMG}/erlebnisbad-luft.webp`, alt: "Luftaufnahme des Erlebnisbads Eibiswald neben dem Campingplatz" },
     },
   ],
 
   usps: [
-    "49 parzellierte Stellplätze",
-    "Erlebnisbad gleich nebenan",
-    "Zwei Holz-Sanitärgebäude",
-    "Hunde willkommen",
+    "49 Stellplätze mit Strom",
+    "Erlebnisbad nebenan",
+    "Zwei Holz-Sanitärhäuser",
     "Kostenloses WLAN",
-    "Gratis Ölspur-Sackerl",
+    "Pumptrack & Dirtpark",
+    "Hunde willkommen",
   ],
 
   trust: {
-    heading: "Vom Gast zum Freund",
-    headingEmphasis: "Freund",
+    heading: "Weststeirisches Lebensgefühl, gleich beim Vorzelt",
+    headingEmphasis: "Weststeirisches Lebensgefühl",
     intro:
-      "Klein, fein und selbst gebaut: saubere Holz-Sanitäranlagen, ein Begrüßungs-Sackerl mit steirischem Kernöl und Gastgeber, die anpacken — viele Camper kommen genau dafür immer wieder.",
+      "Selbst erbaut, von Familienhand geführt und nachhaltig mit Solar und Nahwärme versorgt — dazu Schilcher, Kürbiskernöl und 40 Rad-Panoramatouren direkt vor der Tür. Hier zählt das Echte.",
   },
 
   awards: [
     {
-      label: "Beyond Camping 2023",
-      image: { src: `${IMG}/award-5a0546aa10.png`, alt: "Beyond Camping Auszeichnung 2023" },
+      label: "Beyond Camping — Top Campingplätze 2023",
+      image: { src: `${IMG}/award-beyond-camping-2023.png`, alt: "Auszeichnung Beyond Camping Top Campingplätze 2023" },
     },
   ],
 
   hero: {
-    aerial: { src: `${IMG}/gallery-70c34816d0.webp`, alt: "Luftaufnahme vom Steirischen Ölspur Camping in Eibiswald" },
+    aerial: { src: `${IMG}/hero-abend.webp`, alt: "Mobilheim ENZO im Abendlicht am Ölspur Camping in Eibiswald" },
+  },
+
+  breather: {
+    image: { src: `${IMG}/panorama.webp`, alt: "Blick über die Südweststeiermark von einer Rad-Panoramatour" },
+    line: "Fast 300 Sonnentage über der Südweststeiermark.",
   },
 
   camping: {
-    heading: "Dein Campingtag in Eibiswald",
+    heading: "Klein, aber fein in Eibiswald",
     intro:
-      "Vom Stellplatz zwischen den Reben zu Sanitär, Spülküche und Rezeption ist es nie weit — 49 Plätze auf 10.000 m² Wiese und Split, alles modern und gepflegt.",
+      "10.000 m² Wiese und Split, 49 parzellierte Stellplätze von ca. 80–120 m² und zwei aus heimischem Holz gebaute Sanitärhäuser — alles, was entspanntes Campen braucht.",
     features: [
       {
-        title: "Stellplätze zwischen Reben",
-        text: "49 parzellierte Plätze von 80 bis 120 m², inklusive Stromanschluss, Vorzelt und einem PKW — eingebettet in die Isabella-Weinstöcke.",
-        image: { src: `${IMG}/gallery-a2c333844c.webp`, alt: "Gastgeber berät Camper am Stellplatz zwischen Weinreben" },
+        title: "Stellplätze mit Strom",
+        text: "49 parzellierte Plätze mit eigenem Stromkasten (bis 16 Ampere) und Wasserstellen in Trinkwasserqualität — abends sanft beleuchtet.",
+        image: { src: `${IMG}/stellplaetze-abend.webp`, alt: "Beleuchtete Stellplätze am Ölspur Camping bei Nacht" },
       },
       {
-        title: "Zwei Holz-Sanitärgebäude",
-        text: "Aus heimischem Holz gebaut, eines mit Fußbodenheizung von Saisonbeginn bis -ende: Duschen, Familienbad und ein barrierefreies WC auf Anfrage.",
-        image: { src: `${IMG}/gallery-219ca8e444.webp`, alt: "Modernes Sanitärgebäude mit Waschbecken am Ölspur Camping" },
+        title: "Modernes Sanitärhaus",
+        text: "Zwei Holzgebäude, eines mit Fußbodenheizung, beide mit getrennten Duschräumen und großen Waschbecken — gepflegt und hell.",
+        image: { src: `${IMG}/sanitaer.webp`, alt: "Modernes Waschraum-Innere im Sanitärgebäude" },
       },
       {
-        title: "Spülküche & Trinkwasser",
-        text: "Mehrere Wasserstellen in höchster Trinkwasserqualität und große Spülbecken mit Tropftasse machen Kochen und Abwasch am Platz unkompliziert.",
-        image: { src: `${IMG}/gallery-63dd1dca17.webp`, alt: "Spülbecken im Sanitärgebäude des Ölspur Camping" },
+        title: "Waschen & Trocknen",
+        text: "Im Eingangsbereich stehen Waschmaschine und Trockner zur eigenen, gebührenpflichtigen Nutzung bereit.",
+        image: { src: `${IMG}/waschkueche.webp`, alt: "Waschmaschine und Trockner im Sanitärgebäude" },
       },
       {
-        title: "Waschmaschine & Trockner",
-        text: "Im Eingangsbereich stehen Waschmaschine und Trockner zur Selbstbedienung bereit — praktisch für längere Touren durch die Südsteiermark.",
-        image: { src: `${IMG}/gallery-521e0376d7.webp`, alt: "Waschmaschine und Trockner im Sanitärgebäude" },
+        title: "Frischwasser & Spülen",
+        text: "Mehrere Wasserstellen in höchster Trinkwasserqualität und große Spülbecken mit Tropftasse für Geschirr und Töpfe.",
+        image: { src: `${IMG}/frischwasser.webp`, alt: "Spülbecken mit Frischwasser im Sanitärgebäude" },
       },
       {
-        title: "Kräutergarten zum Pflücken",
-        text: "Frische Kräuter direkt am Platz: Würze deine Campingküche mit dem, was im Ölspur-Kräutergarten gerade wächst — Tipp aus vielen Gästebewertungen.",
-        image: { src: `${IMG}/gallery-d1216f0c44.webp`, alt: "Kräutergarten in Tontöpfen vor der Holzfassade" },
+        title: "Empfang & Sackerl",
+        text: "Im Rezeptionsgebäude gibt es Infos, kostenloses WLAN und für jeden Gast das Ölspur-Camping Sackerl zur Begrüßung.",
+        image: { src: `${IMG}/empfang.webp`, alt: "Hölzernes Empfangsgebäude mit Willkommens-Schild" },
       },
       {
-        title: "Rezeption & kostenloses WLAN",
-        text: "An der glasüberdachten Rezeption findest du Infos, Radkarten und kostenloses WLAN über den ganzen Platz — Gasflaschen-Service ganz in der Nähe.",
-        image: { src: `${IMG}/gallery-92acad87bb.webp`, alt: "Rezeptionsgebäude des Ölspur Camping mit Leihrädern" },
+        title: "Pavillon für laue Abende",
+        text: "Im hinteren Bereich lädt ein Pavillon zum gemütlichen Beisammensein ein — besonders beliebt bei Campern mit Zelt.",
+        image: { src: `${IMG}/pavillon-abend.webp`, alt: "Beleuchteter Pavillon am Campingplatz in der Abenddämmerung" },
       },
     ],
   },
 
   mobilheime: {
-    heading: "Mobilhome „ENZO"",
+    heading: "Lieber ein festes Dach? ENZO.",
     intro:
-      "Kein eigener Wohnwagen? Unser modernes Mobilhome „ENZO" steht ab 15. April bereit — Camping-Feeling mit festem Dach, nur mit Reservierung.",
+      "Du willst nicht im Zelt schlafen? Das moderne Mobilheim „ENZO“ bietet Platz für vier — mit Wohnküche, Schlafzimmer und einem Kinderzimmer mit Stockbett.",
     items: [
       {
-        name: "Mobilhome „ENZO"",
-        kind: "Mobilhome für bis zu 4 Personen",
-        text: "Geräumige Terrasse mit Sitzgarnitur, Wohnbereich mit Küche, Schlafzimmer mit Ehebett und ein Kinderzimmer mit Stockbett — inklusive TV, WLAN und Klimaanlage. Haustiere sind hier nicht erlaubt.",
-        image: { src: `${IMG}/accommodation-5b119b7705.webp`, alt: "Mobilhome ENZO mit Holzfassade und Terrasse" },
+        name: "Mobilheim ENZO",
+        kind: "Mobilheim für bis zu 4 Personen",
+        text:
+          "Geräumige Terrasse mit Sitzgarnitur, Wohnbereich mit Küche, Schlafzimmer mit Ehebett und ein Kinderzimmer mit Stockbett — inklusive TV, WLAN und Klimaanlage. Haustiere sind im Mobilheim nicht erlaubt.",
+        image: { src: `${IMG}/mobilheim-enzo.webp`, alt: "Modernes Mobilheim ENZO aus Holz mit Terrasse im Abendlicht" },
         priceFrom: 119,
-        features: ["Bis 4 Personen", "Terrasse & Sitzgarnitur", "Küche & Bad", "TV, WLAN & Klima"],
+        features: ["Bis 4 Personen", "Eigene Terrasse", "TV, WLAN & Klimaanlage", "Buchbar ab 15. April"],
       },
     ],
   },
 
   kinder: {
-    heading: "Wo Kinder den ganzen Tag draußen sind",
+    heading: "Pumptrack, Bikepark, Badespaß",
     intro:
-      "Direkt neben dem Platz warten Wasserrutsche, Pumptrack und Bike-Trails — hier wird dem Nachwuchs garantiert nicht langweilig.",
+      "Direkt nebenan: das beheizte Erlebnisbad mit langer Rutsche, der kostenlose 3Eiben-Pumptrack und der Kids Bike-Park im Bürgerwald — Langeweile ist hier ein Fremdwort.",
     features: [
       {
-        title: "Wasserspaß im Erlebnisbad",
-        text: "60 Meter lange Rutsche, Strömungskanal sowie Kinder- und Sportbecken: Das beheizte Erlebnisbad nebenan lässt Kinderherzen höherschlagen.",
-        image: { src: `${IMG}/gallery-f912648f22.webp`, alt: "Erlebnisbad mit Wasserrutsche neben dem Campingplatz" },
+        title: "Erlebnisbad mit Rutsche",
+        text: "60 Meter lange Wasserrutsche, Strömungskanal, Kinderbecken und ein großer Spielplatz — beheizt von Mitte Mai bis Mitte September.",
+        image: { src: `${IMG}/erlebnisbad-rutsche.webp`, alt: "Erlebnisbad Eibiswald mit Wasserrutsche und Badegästen" },
       },
       {
-        title: "3Eiben Kids Bike-Park",
-        text: "Im nahen Bürgerwald üben kleine Biker auf Flowtrail, Singletrail und Technik-Parcours — täglich kostenlos von Sonnenaufgang bis Sonnenuntergang.",
-        image: { src: `${IMG}/kids-9b6b6fc089.webp`, alt: "Kinder auf dem 3Eiben Kids Bike-Park im Wald" },
+        title: "3Eiben-Pumptrack",
+        text: "Auf rund 2.000 m² warten Wellen, Anliegerkurven und Sprünge — kostenlos und gleich neben dem Campingplatz.",
+        image: { src: `${IMG}/pumptrack.webp`, alt: "Kinder mit Rädern am 3Eiben-Pumptrack in Eibiswald" },
       },
       {
-        title: "Pumptrack & Dirtpark",
-        text: "Gleich neben dem Campingplatz geht es auf rund 2.000 m² über Wellen, Kurven und Sprünge — mit Bike, Scooter oder Skateboard, und das gratis.",
-        image: { src: `${IMG}/kids-e367e034cb.webp`, alt: "Kind springt über ein Hindernis im Bike-Park" },
+        title: "Kids Bike-Park",
+        text: "Im Bürgerwald rollen kleine Biker über Flowtrails und einen Technik-Parcours — täglich kostenlos zugänglich.",
+        image: { src: `${IMG}/kids-bikepark.webp`, alt: "Kinder fahren im Kids Bike-Park durch den Wald" },
       },
     ],
   },
 
   aktivitaeten: {
-    heading: "Die Südsteiermark vor dem Vorzelt",
+    heading: "Vom Platz direkt in die Touren",
     intro:
-      "Fast 40 Panorama-Radtouren, Wanderwege, Buschenschänke und der Stausee Soboth liegen rund um Eibiswald — von Langeweile keine Spur.",
+      "40 Rad-Panoramatouren, beschilderte Themenwege bis nach Slowenien und der Generationenpark — die Südweststeiermark beginnt direkt am Vorzelt.",
     items: [
       {
-        title: "Mountainbiken bis Slowenien",
-        text: "Nahezu 40 Panoramatouren starten in der Region, einige führen über die Grenze nach Slowenien — durch eines der schönsten Bike-Gebiete der Steiermark.",
-        image: { src: `${IMG}/activity-d2536a1515.webp`, alt: "Mountainbiker auf einem Waldweg in der Region Schilcherland" },
+        title: "40 Rad-Panoramatouren",
+        text: "Nahezu 40 Panoramatouren, von denen einige bis ins Nachbarland Slowenien führen — bei mildem Klima fast das ganze Jahr fahrbar.",
+        image: { src: `${IMG}/radtouren.webp`, alt: "Zwei Mountainbiker auf einer Panoramatour im Abendlicht" },
       },
       {
-        title: "Generationenpark nebenan",
-        text: "Ninja-Warrior-Parcours, Calisthenics und ein Spazierweg durch den Naschgarten: Der Generationenpark direkt am Platz bringt Jung und Alt in Bewegung.",
-        image: { src: `${IMG}/gallery-47a50f90b1.webp`, alt: "Generationenpark Eibiswald mit Calisthenics-Anlage" },
+        title: "Wandern & Themenwege",
+        text: "Wein-, Alm- und Literaturwandern oder mehrtägige Touren wie der Koralmkristalltrail — Eibiswald ist der ideale Ausgangspunkt.",
+        image: { src: `${IMG}/themenwege.webp`, alt: "Themenweg-Schild des Schilcherlands im Wald" },
       },
       {
-        title: "Fischen am Teich",
-        text: "Am nahen, rund 1.700 m² großen Teich kannst du auf Anfrage Karpfen, Amur und Schleie angeln — und den Fang vor Ort grillen.",
-        image: { src: `${IMG}/gallery-125227c628.webp`, alt: "Fischteich im Wald nahe dem Ölspur Camping" },
+        title: "Generationenpark",
+        text: "Ninja Warrior Park, Calisthenics-Geräte, Naschgarten und Wasserspiele — Bewegung für Jung und Alt, direkt neben dem Platz.",
+        image: { src: `${IMG}/generationenpark.webp`, alt: "Ninja-Warrior-Geräte im Generationenpark Eibiswald" },
+      },
+      {
+        title: "Einkehr unterwegs",
+        text: "Almwirtschaften, Buschenschänke und Gasthöfe mit Schilcher und Kürbiskernöl liegen auf vielen Touren am Weg.",
+        image: { src: `${IMG}/almhuette.webp`, alt: "Almhütte mit Blumenschmuck entlang einer Tour" },
       },
     ],
   },
 
   anreise: {
-    heading: "So kommst du nach Eibiswald",
+    heading: "Dein Weg nach Eibiswald",
     modes: [
       {
         title: "Mit dem Auto",
-        text: "Über die A2 Süd und die B76 Richtung Deutschlandsberg, dann weiter nach Eibiswald — der Platz liegt direkt neben dem Erlebnisbad (Eibiswald 127).",
+        text: "Von Graz über die A2 Richtung Süden, dann via Deutschlandsberg nach Eibiswald — der Platz liegt am Ortsrand, direkt neben dem Erlebnisbad.",
       },
       {
         title: "Mit der Bahn",
-        text: "Nächster Bahnhof ist Deutschlandsberg; von dort sind es rund 20 Kilometer mit Bus oder Taxi bis Eibiswald.",
+        text: "Bahnhof Deutschlandsberg, von dort weiter mit dem Regionalbus nach Eibiswald — Feinheiten gern an der Rezeption erfragen.",
       },
       {
-        title: "Flughafen Graz",
-        text: "Der Flughafen Graz-Thalerhof liegt etwa eine Autostunde entfernt.",
+        title: "Zu Fuß im Ort",
+        text: "Vom Campingplatz sind es rund 5 Gehminuten zum Marktplatz mit Einkaufsmöglichkeiten und einem Discounter mit Gasflaschen-Service.",
       },
     ],
   },
 
   galerie: {
-    heading: "Abende an der Ölspur",
-    headingEmphasis: "Ölspur",
+    heading: "Sommer zwischen Reben und Rädern",
+    headingEmphasis: "Reben und Rädern",
     intro:
-      "Holzbau, Weinreben und warmes Licht, wenn die Sonne hinter den Hügeln verschwindet — ein paar Eindrücke vom Platz und seinen Gastgebern.",
-    tag: "Eibiswald · Südsteiermark",
-    moreCount: 16,
+      "Von der ersten Tasse Kaffee im Pavillon bis zur Abendrunde am Pumptrack — ein paar Eindrücke vom Platz und seinen Menschen.",
+    tag: "Saison ab 13. April",
+    moreCount: 24,
     images: [
-      { src: `${IMG}/gallery-d277fe46de.webp`, alt: "Holz-Empfangsgebäude mit Willkommens-Schild am Ölspur Camping" },
-      { src: `${IMG}/gallery-48e90fb497.webp`, alt: "Beleuchteter Pavillon am Abend auf dem Campingplatz" },
-      { src: `${IMG}/gallery-99e5704c94.webp`, alt: "Abendstimmung an der Rezeption mit Kräutergarten" },
-      { src: `${IMG}/gallery-b7eb37073c.webp`, alt: "Radgruppe am Eingang des Ölspur Camping" },
+      { src: `${IMG}/einfahrt-abend.webp`, alt: "Einfahrt zum Ölspur Camping mit Leihrädern im Abendlicht" },
+      { src: `${IMG}/familie-zelt.webp`, alt: "Mehrere Generationen am Ölspur Camping mit Rädern und Golfcart" },
+      { src: `${IMG}/bikegruppe.webp`, alt: "Mountainbike-Gruppe an der Einfahrt des Ölspur Camping" },
+      { src: `${IMG}/sanitaer-abend.webp`, alt: "Beleuchtetes Holz-Sanitärgebäude mit Kräutertöpfen am Abend" },
     ],
   },
 
   booking: {
-    heading: "Sichere dir deinen Platz für 2026",
-    headingEmphasis: "deinen Platz",
+    heading: "Sicher dir deinen Platz zwischen den Reben",
+    headingEmphasis: "zwischen den Reben",
     intro:
-      "Sag uns Zeitraum und Personen — Familie Moser prüft die Verfügbarkeit und meldet sich persönlich. Eine Reservierung über die ganze Saison wird empfohlen.",
+      "Wähle Zeitraum und Personen — Familie Moser meldet sich persönlich mit deiner Verfügbarkeit. Eine Reservierung über die ganze Saison wird empfohlen.",
     pricesArePlaceholder: false,
     priceNote:
-      "Richtpreise Saison 2026 — Stellplatz Vor-/Nachsaison € 15,90/Nacht, Hauptsaison (Juli–August) € 22,–/Nacht, inkl. Strom, Vorzelt & 1 PKW; dazu € 10 je Erwachsene/r, € 6 je Kind (2–15) und € 2 Ortstaxe ab 16 J.; Hund € 3,50. Mobilhome ENZO € 119 inkl. 2 Personen (Endreinigung € 100). Bitte beim Platz bestätigen.",
+      "ab-Preise Vorsaison pro Nacht inkl. 2 Personen — Stellplatz mit Strom, Vorzelt & PKW; Kinder (2–15) € 6, zzgl. Ortstaxe € 2 je Erwachsener · Hauptsaison etwas höher. Mobilheim ENZO inkl. 2 Personen, zzgl. Endreinigung € 100.",
     highlight: {
-      title: "Vorjahrespreis sichern",
-      text: "Wer mindestens 3 Tage vor Anreise reserviert, zahlt den Preis von 2025 — der Stellplatz beginnt dann schon ab € 14.",
+      title: "Vorab buchen lohnt sich",
+      text: "Bei Reservierung mindestens drei Tage vor Anreise gilt der gleiche Preis wie im Vorjahr 2025.",
     },
     categories: [
-      { id: "stellplatz-vor", label: "Stellplatz (Vor-/Nachsaison)", perNight: 15.9, perExtraGuest: 10 },
-      { id: "stellplatz-hoch", label: "Stellplatz (Hauptsaison Juli–Aug.)", perNight: 22, perExtraGuest: 10 },
-      { id: "zelt", label: "Zeltplatz", perNight: 9, perExtraGuest: 10 },
-      { id: "mobilhome", label: "Mobilhome ENZO", perNight: 119, perExtraGuest: 25 },
+      { id: "stellplatz", label: "Stellplatz", perNight: 35.9, perExtraGuest: 10 },
+      { id: "zelt", label: "Zeltplatz", perNight: 29, perExtraGuest: 10 },
+      { id: "mobilheim", label: "Mobilheim ENZO", perNight: 119, perExtraGuest: 25 },
     ],
   },
 
   kontakt: {
-    tel: "+43 (0) 3466 21010",
+    tel: "+43 3466 21010",
     telHref: "tel:+43346621010",
     mail: "info@oelspur-camping.at",
     adresse: "Eibiswald 127 · 8552 Eibiswald · Steiermark",
@@ -241,7 +251,7 @@ const oelspurCamping: CampsiteConfig = {
         { label: "Sanitär", href: "#camping" },
       ],
     },
-    { label: "Mobilhome", href: "#mobilheime" },
+    { label: "Mobilheim", href: "#mobilheime" },
     { label: "Familie", href: "#kinder" },
     { label: "Aktiv", href: "#aktivitaeten" },
     {
