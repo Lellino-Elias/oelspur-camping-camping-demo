@@ -120,8 +120,7 @@ const oelspurCamping: CampsiteConfig = {
       {
         name: "Mobilheim ENZO",
         kind: "Mobilheim für bis zu 4 Personen",
-        text:
-          "Geräumige Terrasse mit Sitzgarnitur, Wohnbereich mit Küche, Schlafzimmer mit Ehebett und ein Kinderzimmer mit Stockbett — inklusive TV, WLAN und Klimaanlage. Haustiere sind im Mobilheim nicht erlaubt.",
+        text: "Terrasse, Wohnküche, Schlafzimmer mit Ehebett und Kinderzimmer mit Stockbett — TV, WLAN, Klimaanlage. Keine Haustiere.",
         image: { src: `${IMG}/mobilheim-enzo.webp`, alt: "Modernes Mobilheim ENZO aus Holz mit Terrasse im Abendlicht" },
         priceFrom: 119,
         features: ["Bis 4 Personen", "Eigene Terrasse", "TV, WLAN & Klimaanlage", "Buchbar ab 15. April"],
